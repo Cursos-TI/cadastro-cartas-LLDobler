@@ -70,24 +70,25 @@ int main() {
   scanf("%d", &pontosTuristicos2);
 
   // Área para exibição dos dados de cada carta cadastrada ------------------------------------------
+
   printf("\n Carta 2 salva com sucesso!\n\n Certo, agora veja os dados das cartas cadastradas!\n\n");
   printf("Carta 1:\n");
   printf("Estado: %s", nomeEstado1);
   printf("Código da Carta: %s\n", codigoCarta1);
-  printf("Cidade: %s", nomeCidade1);
+  printf("Nome da cidade: %s", nomeCidade1);
   printf("População: %d\n", popCidade1);
   printf("Área: %.2f km²\n", areaCidade1);
-  printf("PIB: R$ %.2f\n", pibCidade1);
-  printf("Pontos Turísticos: %d\n\n", pontosTuristicos1); 
+  printf("Produto Interno Bruto: R$ %.2f\n", pibCidade1);
+  printf("Número de pontos turísticos: %d\n\n", pontosTuristicos1); 
 
   printf("Carta 2:\n");
   printf("Estado: %s\n", nomeEstado2);
   printf("Código da Carta: %s\n", codigoCarta2);
-  printf("Cidade: %s", nomeCidade2);
+  printf("Nome da cidade: %s", nomeCidade2);
   printf("População: %d\n", popCidade2);
   printf("Área: %.2f km²\n", areaCidade2);
-  printf("PIB: R$ %.2f\n", pibCidade2);
-  printf("Pontos Turísticos: %d\n", pontosTuristicos2);
+  printf("Produto Interno Bruto: R$ %.2f\n", pibCidade2);
+  printf("Número de pontos turísticos: %d\n", pontosTuristicos2);
 
 return 0;
 } 
